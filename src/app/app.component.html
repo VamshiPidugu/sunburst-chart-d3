@@ -1,0 +1,15 @@
+<!-- <hello name="{{ name }}"></hello>
+
+<p>Start editing to see some magic happen :)</p> (eventclick)="getMsgFromBaby($event)" -->
+<div>
+  {{ msg | json}}
+</div>
+  <!-- <app-sunburst-chart
+  [data]="data"
+  (eventclick)="getMessagePassed($event)"
+></app-sunburst-chart> -->
+
+<app-sunburst-chart
+[data]="data"
+(eventclick)="getMessagePassed($event)"
+></app-sunburst-chart>
